@@ -1,10 +1,28 @@
-## Robotics School Platform
+# Activity 7 and Homework 6 - Robotics School Platform
 
-A web platform built with Laravel for managing a robotics school. It handles users with different roles (admin, teacher, student), organizes them into groups, and lets teachers assign courses that are tied to specific robotics kits. Each course can also have didactic materials like PDFs or videos attached to it.
+## Project Name
 
-- [This project was built using Laravel 12, Eloquent ORM, MySQL, and Git/GitHub for version control.]
+Robotics School Platform (Activity 7)
+
+## Project Description
+
+This project consists of the development of a small platform for a robotics school. The system allows users to register on the platform with different roles: student, teacher, or administrative staff.
+
+Students belong to groups such as beginner, intermediate, and advanced. Groups can have several courses assigned to them, and each course contains information such as title, cover, and content. Additionally, each course is associated with a robotics kit and can include didactic materials that help teachers conduct their classes.
+
+The project was developed using Laravel and Eloquent ORM to model and manage the relational database.
+
+The database was populated using:
+
+* Seeders for users and robotics kits
+* A factory to generate 100 fake course records using FakerPHP
 
 ## ER Diagram
 
-![ER Diagram](docs/Act7_ER_diagram.png)
+![ER Diagram](docs/ER_DIAGRAM.png)
+
+The ER diagram shows the main entities of the system and their relationships, including users, groups, courses, robotics kits, and didactic materials.
+
+
+
 
